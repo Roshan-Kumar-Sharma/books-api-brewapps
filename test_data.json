@@ -1,0 +1,142 @@
+[
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "summary": "A story about a young Andalusian shepherd named Santiago who sets out on a journey to discover his personal legend.",
+    "genre": "Fiction",
+    "publication_date": "1988-05-01T00:00:00.000Z"
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "summary": "A dystopian novel set in a totalitarian society, exploring themes of government oppression and psychological manipulation.",
+    "genre": "Science Fiction",
+    "publication_date": "1949-06-08T00:00:00.000Z"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "summary": "Set in the 1930s, it tells the story of a young girl, Scout Finch, and her father, Atticus, a lawyer defending a black man accused of rape.",
+    "genre": "Fiction",
+    "publication_date": "1960-07-11T00:00:00.000Z"
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "summary": "The novel explores themes of decadence, idealism, resistance to change, and social upheaval in the Jazz Age.",
+    "genre": "Fiction",
+    "publication_date": "1925-04-10T00:00:00.000Z"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "summary": "A classic novel depicting the societal issues of 19th-century England, focusing on the dynamics of class, love, and marriage.",
+    "genre": "Fiction",
+    "publication_date": "1813-01-28T00:00:00.000Z"
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "summary": "Follows the story of Holden Caulfield, a young man in New York City, dealing with issues of identity, belonging, and the 'phoniness' of the adult world.",
+    "genre": "Fiction",
+    "publication_date": "1951-07-16T00:00:00.000Z"
+  },
+  {
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "summary": "An epic fantasy novel involving a quest to destroy a powerful ring and defeat the dark lord Sauron.",
+    "genre": "Fantasy",
+    "publication_date": "1954-07-29T00:00:00.000Z"
+  },
+  {
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "summary": "Follows the story of a young wizard, Harry Potter, and his adventures at Hogwarts School of Witchcraft and Wizardry.",
+    "genre": "Fantasy",
+    "publication_date": "1997-06-26T00:00:00.000Z"
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "summary": "A fantasy novel about the journey of Bilbo Baggins to win a share of the treasure guarded by the dragon Smaug.",
+    "genre": "Fantasy",
+    "publication_date": "1937-09-21T00:00:00.000Z"
+  },
+  {
+    "title": "The Da Vinci Code",
+    "author": "Dan Brown",
+    "summary": "A mystery thriller that follows symbologist Robert Langdon as he investigates a murder in the Louvre Museum and discovers a hidden secret.",
+    "genre": "Mystery",
+    "publication_date": "2003-03-18T00:00:00.000Z"
+  },
+  {
+    "title": "The Girl with the Dragon Tattoo",
+    "author": "Stieg Larsson",
+    "summary": "A crime novel involving journalist Mikael Blomkvist and hacker Lisbeth Salander as they work together to solve a cold case.",
+    "genre": "Crime",
+    "publication_date": "2005-09-16T00:00:00.000Z"
+  },
+  {
+    "title": "The Hunger Games",
+    "author": "Suzanne Collins",
+    "summary": "Set in a dystopian future, it follows a young girl named Katniss Everdeen as she participates in a brutal televised event called the Hunger Games.",
+    "genre": "Science Fiction",
+    "publication_date": "2008-09-14T00:00:00.000Z"
+  },
+  {
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "summary": "A comedic science fiction series that follows the adventures of Arthur Dent after Earth's destruction to make way for a hyperspace bypass.",
+    "genre": "Science Fiction",
+    "publication_date": "1979-10-12T00:00:00.000Z"
+  },
+  {
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "summary": "Set in a futuristic world, it explores a dystopian society, where emotions and individuality are suppressed in the name of social stability.",
+    "genre": "Science Fiction",
+    "publication_date": "1932-10-27T00:00:00.000Z"
+  },
+  {
+    "title": "The Road",
+    "author": "Cormac McCarthy",
+    "summary": "A post-apocalyptic novel following a father and son's journey across a desolate landscape, facing the challenges of survival.",
+    "genre": "Fiction",
+    "publication_date": "2006-09-26T00:00:00.000Z"
+  },
+  {
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "summary": "A story about the bond between two boys in Afghanistan and the consequences of betrayal and redemption.",
+    "genre": "Fiction",
+    "publication_date": "2003-05-29T00:00:00.000Z"
+  },
+  {
+    "title": "Moby-Dick",
+    "author": "Herman Melville",
+    "summary": "The story of Ishmael's voyage on the whaling ship Pequod and his obsession with the elusive white whale, Moby Dick.",
+    "genre": "Fiction",
+    "publication_date": "1851-11-14T00:00:00.000Z"
+  },
+  {
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "summary": "An exploration of the consequences of scientific discovery and the ethics of creation, as Dr. Frankenstein brings a creature to life.",
+    "genre": "Gothic Fiction",
+    "publication_date": "1818-01-01T00:00:00.000Z"
+  },
+  {
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "summary": "A novel about a man whose portrait ages while he remains youthful, delving into themes of vanity, morality, and the consequences of one's actions.",
+    "genre": "Gothic Fiction",
+    "publication_date": "1890-07-01T00:00:00.000Z"
+  },
+  {
+    "title": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "summary": "The story of Edmond Dantès, who, after being wrongfully imprisoned, seeks revenge against those who betrayed him.",
+    "genre": "Fiction",
+    "publication_date": "1844-08-28T00:00:00.000Z"
+  }
+]
