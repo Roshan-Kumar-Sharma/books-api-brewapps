@@ -13,8 +13,10 @@ Run the following commands in terminal and follow instructions
    ```$ npm i```
    
 6. create .env file in parent directory. Add following data in the created .env file   
-   ```DB_URI=<MONGODB_ATLAS_LINK>
-   DB_NAME=<DATABASE_NAME>```
+   ```
+   DB_URI=<MONGODB_ATLAS_LINK>
+   DB_NAME=<DATABASE_NAME>
+   ```
    
 7. Execute the below command to start the server in development mode
    ```$ npm run dev```
@@ -38,8 +40,9 @@ Run the following commands in terminal and follow instructions
 ```GET http://localhost:8080/get_books?title=&author=&genre=&date_field=&s_date=&e_date=&sort_field=author&sort_type=&limit=5&offset=0```
 
 
-### Add a new book(s)   
-```POST http://localhost:8080/add_books
+### Add a new book(s)  
+```
+POST http://localhost:8080/add_books
 Content-Type: application/json
 
 {
@@ -48,10 +51,12 @@ Content-Type: application/json
     "summary": "A psychological thriller about a woman who becomes mute after allegedly murdering her husband, and the psychotherapist determined to uncover the truth.",
     "genre": "Psychological Thriller",
     "publication_date": "2019-02-05"
-}```
+}
+```
 
 
-### Update the title, author, genre of the book
+### Update the title, author, genre of the book  
+```
 PUT http://localhost:8080/update_book/<book_id>
 Content-Type: application/json
 
@@ -60,8 +65,8 @@ Content-Type: application/json
     "author": "Valmiki",
     "genre": "Mythology"
 }
+```
 
 
-### Delete a book by its id
-DELETE http://localhost:8080/delete_book/<book_id>
-Content-Type: application/json
+### Delete a book by its id   
+```DELETE http://localhost:8080/delete_book/<book_id>```
