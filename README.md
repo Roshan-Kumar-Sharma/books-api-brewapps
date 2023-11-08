@@ -12,7 +12,8 @@ Run the following commands in terminal and follow instructions
 5. npm run dev
 6. Use rest.http file to see how to use all the enpoint/apis
 
-# Api is hosted on render hosting platform: https://books-api-b5k2.onrender.com
+# APIs are hosted on render hosting platform: 
+https://books-api-b5k2.onrender.com
 
 # APIs usage
 
