@@ -1,11 +1,11 @@
 const router = require("express").Router();
 const crypto = require("crypto")
-const ObjectId = require("mongoose").Types.ObjectId;
-const { findByIdAndUpdate } = require("./books.models");
+const isbn = require("node-isbn")
 const Book = require("./books.models");
 const TEST_DATA = require("../../../test_data.json")
 
 router.get("/get_book_by_id/:book_id", async (req, res, next) => {
+    let invalidISBN = true
     try {
         const { book_id } = req.params;
 
@@ -13,9 +13,12 @@ router.get("/get_book_by_id/:book_id", async (req, res, next) => {
             throw new Error("Please give proper book id");
         }
 
-        const book = await Book.findOne({ book_id }).select("-_id -__v");
+        let book = await Book.findOne({ book_id }).select("-_id -__v");
 
-        if(!book) throw new Error("Book not found")
+        if(!book) {
+            book = await isbn.resolve(book_id)
+            invalidISBN = false
+        }
 
         res.status(200).json({
             status: true,
@@ -23,7 +26,8 @@ router.get("/get_book_by_id/:book_id", async (req, res, next) => {
             data: book
         });
     } catch (err) {
-        return next(new Error(err.message));
+        let message = invalidISBN ? "Invalid ISBN number" : err.message
+        return next(new Error(message));
     }
 });
 

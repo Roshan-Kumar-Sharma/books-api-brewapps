@@ -1,4 +1,4 @@
-### Populate the database with test data
+### Populate the database with test data given in the file test_data.json
 POST http://localhost:8080/populate_db
 
 

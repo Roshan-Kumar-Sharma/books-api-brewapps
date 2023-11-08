@@ -3,14 +3,23 @@
 In order to run this project
 Run the following commands in terminal and follow instructions
 
-1. Clone the repository in your local machine
-2. cd books-api-brewapps
-3. npm i
-4. create .env file in parent directory. Add following data in the created .env file
-   DB_URI=<MONGODB ATLAS LINK>
+1. Clone the repository in your local machine using the below command
+   $ git clone https://github.com/Roshan-Kumar-Sharma/books-api-brewapps.git
    
-5. npm run dev
-6. Use rest.http file to see how to use all the enpoint/apis
+3. Navigate inside the directory by the below command
+   $ cd books-api-brewapps
+   
+5. Run the below command to install the dependencies
+   $ npm i
+   
+6. create .env file in parent directory. Add following data in the created .env file
+   DB_URI=<MONGODB_ATLAS_LINK>
+   DB_NAME=<DATABASE_NAME>
+   
+7. Execute the below command to start the server in development mode
+   $ npm run dev
+   
+9. Go through rest.http file to see how to use all the endpoints/apis
 
 # APIs are hosted on render hosting platform: 
 https://books-api-b5k2.onrender.com
